@@ -77,15 +77,6 @@ namespace FoodDelivery.Repository
                     CreatedDate = DateTime.Now,
                     UpdatedBy = "seed",
                     UpdatedDate = DateTime.Now,
-                },
-                new FoodType
-                {
-                    Id = 7,
-                    Name = "Roast",
-                    CreatedBy = "seed",
-                    CreatedDate = DateTime.Now,
-                    UpdatedBy = "seed",
-                    UpdatedDate = DateTime.Now,
                 }
             );
 
