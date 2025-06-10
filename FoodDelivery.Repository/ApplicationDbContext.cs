@@ -76,7 +76,7 @@ namespace FoodDelivery.Repository
                     CreatedBy = "seed",
                     CreatedDate = DateTime.Now,
                     UpdatedBy = "seed",
-                    UpdatedDate = DateTime.Now,
+                    UpdatedDate = ,
                 }
             );
 
