@@ -59,12 +59,7 @@ namespace FoodDelivery.Repository
 
         public async Task InsertAsync(T entity)
         {
-            if (entity == null)
-            {
-                throw new ArgumentNullException("entity");
-            }
-
-            await _dbContext.AddAsync(entity);
+            
             await _dbContext.SaveChangesAsync();
         }
 

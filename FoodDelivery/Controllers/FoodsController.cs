@@ -31,7 +31,7 @@ namespace FoodDelivery.Controllers
         {
             var food = await _foodService.GetFoodByIdAsync(id);
 
-            return View(food);
+          
         }
 
         [Route("foods/type/{id}/{name}")]

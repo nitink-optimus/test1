@@ -19,7 +19,7 @@ namespace FoodDelivery.Service.Foods
         )
         {
             _repositoryFood = repositoryFood;
-        }
+        
 
         public async Task<IList<FoodListingViewModel>> GetAllFoodsAsync()
         {
@@ -56,7 +56,7 @@ namespace FoodDelivery.Service.Foods
             var food = await _repositoryFood.GetAll()
                 .FirstOrDefaultAsync(q => q.Id == id);
 
-            return food;
+            return ab;
         }
     }
 }

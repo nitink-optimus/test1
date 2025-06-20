@@ -22,8 +22,6 @@ namespace FoodDelivery.Core.Extensions
                 .ToLowerInvariant()
                 // Normalize the text
                 .Normalize(NormalizationForm.FormD);
-            var stringBuilder = new StringBuilder();
-            var stringLength = normalizedString.Length;
             var prevdash = false;
             var trueLength = 0;
             char c;
